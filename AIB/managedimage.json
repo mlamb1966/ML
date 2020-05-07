@@ -69,15 +69,15 @@
 					"version": "[parameters('version')]"
 				},
 				"customize": [
-					//{
-					//	"type": "PowerShell",
-				//		"name": "InstallApps",
-				//		"scriptUri": "[parameters('ScriptUri')]"
-				//	},
-				//	{
-				//		"type": "WindowsRestart",
-				//		"restartTimeout": "30m"
-				//	}
+					{
+						"type": "PowerShell",
+						"name": "InstallApps",
+						"scriptUri": "[parameters('ScriptUri')]"
+					},
+					{
+						"type": "WindowsRestart",
+						"restartTimeout": "30m"
+					}
 				],
 				"distribute": [
 					{
