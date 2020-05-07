@@ -23,7 +23,7 @@
 		},
 		"ScriptUri": {
 			"type": "string",
-			"defaultValue": "Customiseimage.ps1",
+			"defaultValue": "https://raw.githubusercontent.com/mlamb1966/ML/master/AIB/customiseimage.ps1",
 			"metadata": {
 				"description": "Location of powershell script to customize your image"
 			}
