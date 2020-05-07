@@ -1,0 +1,1 @@
+(Get-AzResource -ResourceGroupName RG_WE_AzureImageBuilder -ResourceType Microsoft.VirtualMachineImages/imageTemplates -Name $ImageTemplateName).Properties.lastRunStatus
