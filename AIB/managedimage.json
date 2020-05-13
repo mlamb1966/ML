@@ -37,7 +37,7 @@
 		},
 		"ManagedImageName": {
 			"type": "string",
-			"defaultValue": "AIB-Image",
+			"defaultValue": "ML-WVD-Image-1",
 			"metadata": {
 				"description": "Name of the managed image, it will be created in the AIB resourcegroup"
 			}
